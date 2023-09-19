@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hamim Hussain</title>
+    <meta name="description" content="Wyatt Howlett Portfolio" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>    
+</head>
+
+<body>
+    <header class="header navbar row" id="navbar">
+        <div class="header__content navbar col-md-6">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="./assets/png/profilepic.png"
+                        class="header__logo-img" />
+                </div>
+                <span class="header__logo-sub" href="#about"> Hamim Hussain </span>
+            </div>
+            <div class="menuBtn">
+                <!-- <div class="menuBtn_Burger"> -->
+                <div class="navBarLinks col-md-2">
+                    <div class="header__main">
+                        <ul class="header__links">
+                            <li class="header__link-wrapper nav-item ">
+                                <a href="./index.html" class="header__link"> Home </a>
+                            </li>
+                            <li class="header__link-wrapper nav-item">
+                                <a href="./index.html#about" class="header__link"> About </a>
+                            </li>
+                            <li class="header__link-wrapper nav-item">
+                                <a href="./index.html#projects" class="header__link">
+                                    Projects
+                                </a>
+                            </li>
+                            <li class="header__link-wrapper nav-item">
+                                <a href="./index.html#contact" class="header__link"> Contact </a>
+                            </li>
+                        </ul>
+                        <!-- <div class="header__main-ham-menu-cont">
+                    <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+                    <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none" />
+                </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="header__sm-menu">
+                <div class="header__sm-menu-content">
+                    <ul class="header__sm-menu-links">
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html"> Home </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#about"> About Me </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#projects"> Projects </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#contact"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <section class="home-hero overflow-hidden">
+        <div id="particles"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                VANTA.BIRDS({
+                    el: "#particles",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    backgroundColor: 0x51e0ff,
+                    color1: 0xff0f0f,
+                    color2: 0x2deb9c,
+                    colorMode: "variance",
+                    birdSize: 1.50,
+                    wingSpan: 20.00,
+                    separation: 43.00,
+                    alignment: 48.00,
+                    cohesion: 28.00,
+                    quantity: 4.00,
+                    backgroundAlpha: 0.00,
+                });
+            });
+        </script>
+            <div id="webcoderskull">
+
+
+
+                <div class="home-hero__content overflow-auto">
+                    <h1 class="heading-primary">Hello! I'm Hamim Hussain:
+                        <div class="home-hero__info .text-white">
+                            <p class="text-primary .text-white">
+                                Engineer | Python Enthusiast | Data Analyst
+                            </p>
+                            
+                        </div>
+                        <div class="home-hero__cta">
+                            <a href="./index.html#projects" class="btn btn--bg">Projects</a>
+                        </div>
+                </div>
+                <div class="home-hero__socials">
+                    <div class="home-hero__social">
+                        <a href="https://www.linkedin.com/in/hamim-hussain/"
+                            class="home-hero__social-icon-link">
+                            <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+                        </a>
+                    </div>
+                    <div class="home-hero__social">
+                        <a href="https://github.com/Hamim-Hussain" class="home-hero__social-icon-link">
+
+                            <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+                        </a>
+                    </div>
+                   
+                    <div class="home-hero__social">
+                        <a href="https://www.instagram.com/aceofhhart/"
+                            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+                            <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-hero__mouse-scroll-cont">
+
+                    
+
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+    <section id="about" class="about sec-pad row">
+        <div class="main-container col-lg-12 col=col-md-6">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Explore my background👨‍💻</span>
+                <span class="heading-sec__sub">
+                    
+                </span>
+            </h2>
+            <div class="about__content row">
+                <div class="about__content-main col-md-6">
+                    <h3 class="about__content-title">Let me introduce myself!</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            
+As a recent First-Class Chemical Engineering graduate with a Data Analytics certificate, I offer technical expertise and a passion for data-driven insights.
+Proficient in Python, SQL, Excel, and more, I excel in data analysis, visualisation, and business intelligence. My background includes roles as a Warehouse Operative
+and Junior Administrator, where I prioritised safety and streamlined operations. I'm also an accomplished Room Service Waiter with excellent customer service skills.
+                        </br>
+Beyond my technical abilities, I'm a skilled artist, winning 'The Arts Society Arden' for my realistic watercolor painting. Now, I seek a Data Analyst position
+to apply my skills, drive data-driven decisions, and pursue an AWS Data Architect Certification. Let's connect and explore opportunities to contribute to your organisation's success.
+                        </p>
+                        <p class="about__content-details-para">
+
+                    </div>
+                    <a href="https://drive.google.com/file/d/1oNRxfrbLI8bKXQq9eHtC_XamNThpxtTj/view?usp=sharing"
+                        class="btn btn--med btn--theme dynamicBgClr">Resume</a>
+                </div>
+
+                <div class="about__content-skills col-md-6">
+                    <h3 class="about__content-title">My Skills</h3>
+                    <div class="skills">
+                        <div class="skills__skill">HTML</div>
+                        <div class="skills__skill">CSS</div>
+                        <div class="skills__skill">JavaScript</div>
+                        <div class="skills__skill">Python</div>
+                        <div class="skills__skill">SQL</div>
+                        <div class="skills__skill">NoSQL</div>
+                        <div class="skills__skill">Excel</div>
+                        <div class="skills__skill">MongoDB</div>
+                        <div class="skills__skill">Flask</div>
+                        <div class="skills__skill">Beautiful Soup</div>
+                        <div class="skills__skill">Splinter</div>
+                        <div class="skills__skill">Tableau</div>
+                        <div class="skills__skill">Leaflet.js</div>
+                        <div class="skills__skill">Pandas</div>
+                        <div class="skills__skill">Machine Learning</div>
+                        <div class="skills__skill">Deep Learning</div>
+                        <div class="skills__skill">Hadoop</div>
+                        <div class="skills__skill">Hive</div>
+                        <div class="skills__skill">PySpark</div>
+                        <div class="skills__skill">Bootstrap</div>
+                        
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects🚀</span>
+                <span class="heading-sec__sub">
+                    
+                </span>
+            </h2>
+
+            
+
+            <div class="projects__content">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/graduate_pic.jpg" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">To Graduate Or Not To Graduate</h3>
+                        <p class="projects__row-content-desc">
+                            This project leverages Python, Pandas, Tableau, and Machine Learning techniques to analyse and predict student outcomes in higher education.
+                            Using a comprehensive dataset, we employ data preprocessing, visualisation with Tableau,
+                            and advanced machine learning models built with Python to uncover insights into graduation rates and factors influencing it.
+
+                        </p>
+                        <a href="https://github.com/Hamim-Hussain/To-Graduate-Or-Not-To-Graduate"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">To Graduate Or Not To Graduate</a>
+                    </div>
+                </div>
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/Media1.gif" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Covid 19 Dashboard</h3>
+                        <p class="projects__row-content-desc">
+                            In this project, we dive deep into the global impact of COVID-19 vaccination. Using reliable datasets and interactive visualisations created with JavaScript, particularly Leaflet.js,
+                            we scrutinise vaccination progress, disparities, and correlations. Our goal is to shed light on vaccination coverage, distribution, and its intricate relationship with factors such
+                            as GDP per capita. Through our findings, we underscore the critical importance of ensuring equitable vaccine access for all. Join us on this journey of discovery into the intricacies
+                            of global vaccination efforts.
+
+                        </p>
+                        <a href="https://github.com/Hamim-Hussain/Covid-19-Dashboard"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">Covid 19 Dashboard</a>
+                    </div>
+                </div>
+               
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/top.JPG" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Analysing House Prices In London</h3>
+                        <p class="projects__row-content-desc">
+                            In this project, we used Python and Pandas to analyse property prices in various London boroughs. Our journey begins with data collection, where we meticulously
+                            identify and gather data from diverse sources, including public databases, CSV files, and APIs. Following this, we apply data extraction and cleansing techniques to ensure
+                            the data's reliability.
+                            
+                            Then, we delve into data analysis, embarking on a journey to uncover hidden patterns and trends. We created visualisations to provide a clear picture of the data 
+                            and conduct statistical analyses, such as calculating mean and median, to address our research questions effectively.
+                        </p>
+                        <a href="https://github.com/Hamim-Hussain/Analysing-House-Prices-In-Different-Boroughs-In-London"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">Analysing House Prices In London</a>
+                    </div>
+                </div>
+                <div class="projects__content">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/citi-bike-station-bikes.jpg" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">CitiBike</h3>
+                        <p class="projects__row-content-desc">
+                            This analysis delves into the usage patterns and user demographics of Citi Bike, a bike-sharing system in New Jersey, 
+                            based on the available data from 2021. By examining key insights from the dataset, we aim to gain a deeper understanding 
+                            of the popular starting stations, user types, gender distribution, and trip durations by using Tableau. This analysis provides valuable 
+                            information for improving the bike-sharing system's efficiency, understanding user preferences, and enhancing transportation 
+                            infrastructure in the region.
+
+                        </p>
+                        <a href="https://public.tableau.com/app/profile/hamim.hussain/viz/CitiBike-Visualisations/CitiBikeStory"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">CitiBike</a>
+                    </div>
+                </div>
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/sql.JPG" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">SQL Data Exploration</h3>
+                        <p class="projects__row-content-desc">
+                            In this data exploration project, we delve into Pewlett Hackard's employee data from the 1980s and 1990s.
+                             The primary objective is to design and analyse a SQL database containing information from six CSV files. 
+                             This process encompasses data modeling, engineering, and analysis.
+                        </p>
+                        <a href="https://github.com/Hamim-Hussain/SQL-Data-Exploration"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">SQL Data Exploration</a>
+                    </div>
+                </div>
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/png/pharma.JPG" alt="Software Screenshot"
+                            class="projects__row-img" loading="lazy" />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Exploring Cancer Treatment</h3>
+                        <p class="projects__row-content-desc">
+                            Analysing an animal study on potential skin cancer treatments. 249 mice received various regimens,
+                            observing tumor development over 45 days. My roles were to generate: tables, figures, and a summary.
+                        </p>
+                        <a href="https://github.com/Hamim-Hussain/Exploring-Cancer-Treatment-Data-using-Matplotlib"
+                            class="btn btn--med btn--theme dynamicBgClr" target="_blank">Exploring Cancer Treatment</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                  
+                </span>
+            </h2>
+            <div class="contact__form-container">
+               
+                <form action="https://formsubmit.co/hamimhussain01@gmail.com" class="contact__form" method="POST">
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="name">Name</label>
+                        <input required placeholder="Enter Your Name" type="text" class="contact__form-input"
+                            name="name" id="name" required/>
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="email">Email</label>
+                        <input required placeholder="Enter Your Email" type="text" class="contact__form-input"
+                            name="email" id="email" required/>
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="message">Message</label>
+                        <textarea required cols="30" rows="10" class="contact__form-input"
+                            placeholder="Enter Your Message" name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--theme contact__btn">
+                        Send
+                    </button>
+                </form>
+              
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/hamim-hussain/">
+                            <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Hamim-Hussain">
+                            <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+                        </a>
+                       
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/aceofhhart/">
+                            <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png"
+                                alt="icon" />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Hamim Hussain</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting my portfolio! <br>
+                        If you'd like to connect or collaborate, don't hesitate to reach out via email at hamimhussain01@gmail.com .
+                        I look forward to hearing from you!</a>
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="main-footer__lower">
+                &copy; Copyright 2023.  HamimHussain.com
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+    <script src="./assets/hamburger.js"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</body>
+
+</html>
